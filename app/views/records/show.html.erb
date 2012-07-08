@@ -1,0 +1,20 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Title:</b>
+  <%= @record.title %>
+</p>
+
+<p>
+  <b>Artist:</b>
+  <%= @record.artist %>
+</p>
+
+<p>
+  <b>Image url:</b>
+  <%= @record.image_url %>
+</p>
+
+
+<%= link_to 'Edit', edit_record_path(@record) %> |
+<%= link_to 'Back', records_path %>
